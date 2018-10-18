@@ -23,11 +23,11 @@ We will probably be developing a simple web-based front-end on the Esports Club'
 We'll be keeping track of each individual members' ecoin balance, as well as a history of their events and matches. We'll also have member data available for administrators (name, email, grade).
 ## 1.3 Example Data
 Some examples of the types of data that will be provided to the user include: 
-Providing an email and getting a balance in return
-Providing a match and returning the match details, including both players, wager, and winner.
-Providing an event name and returning the associated winnings with first second and third.
-Providing an event instance and returning the winners.
-Providing an email and returning event instances that person has participated in. 
+ - Providing an email and getting a balance in return.
+ - Providing a match and returning the match details, including both players, wager, and winner.
+ - Providing an event name and returning the associated winnings with first second and third.
+ - Providing an event instance and returning the winners.
+ - Providing an email and returning event instances that person has participated in. 
 ## 1.4 Preliminary Schema
 | Student | Email | Grade Level | Balance
 | ------ | ------ | ------ | ------ |
