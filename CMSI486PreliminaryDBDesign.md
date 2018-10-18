@@ -60,4 +60,4 @@ We'll be keeping track of each individual members' ecoin balance, as well as a h
 |  |  | |
 |  |  | |
 ## 1.5 Preliminary ERD
-![ERD][/PrelimERD.png]
+![ERD](/PrelimERD.png)
