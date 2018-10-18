@@ -13,26 +13,18 @@ Professor Johnson
 
 ## 1.1 Project Description
 
-database engine used, potential users, maybe some other stuff
 #### 1.1.01 Database Engine
-We are considering using a ______ database for this project, as it will _____
+We are considering using a PostgreSQL database for this project, because it is a standard system that is generally recommended and Tyler has experience with it.
 #### 1.1.02 Potential Users
-The main goal of this database is to allow Esports members to access their "ecoin" balance, but it will also be useful for Esports administrators to access members' emails and grade levels in order to keep an active mailing list and organize school-wide competitions and events.
+The main goal of this database is to allow Esports **members** to access their "ecoin" balance, but it will also be useful for Esports **administrators** to access members' emails and grade levels in order to keep an active mailing list and organize school-wide competitions and events.
 #### 1.1.03 Interface Options
-We will probably be developing a simple web-based front-end on the Esports Club's website, https://lmuesports.com/. Here, members will be able to search up their ecoins balance or provide updated balances (requires confirmation by an administrator). Members will access their balance by providing their email address.
+We will probably be developing a simple web-based front-end on the Esports Club's website, https://lmuesports.com/. Members will access their balance by providing their email address.
 ## 1.2 Data Description
-
+We'll be keeping track of each individual members' ecoin balance, as well as a history of their events and matches. We'll also have member data available for administrators (name, email, grade).
 ## 1.3 Example Data
-| Student | Email | Grade Level |
-| ------ | ------ | ------ |
-|  |  | |
-|  |  | |
-|  |  | |
-|  |  | |
-|  |  | |
-|  |  | |
 
-| Event | Date | Ecoin Value | Confirmed By
+## 1.4 Preliminary Schema
+| Student | Email | Grade Level | Balance
 | ------ | ------ | ------ | ------ |
 |  |  | |
 |  |  | |
@@ -41,7 +33,30 @@ We will probably be developing a simple web-based front-end on the Esports Club'
 |  |  | |
 |  |  | |
 
+| Match | Player 1 | Player 2 | Wager | Winner|
+| ------ | ------ | ------ | ------ | ------ |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
 
-## 1.4 Preliminary Schema
+| Event | First Place | Second Place | Third Place
+| ------ | ------ | ------ | ------ |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
 
+| Event Instance | First | Second | Third | Date
+| ------ | ------ | ------ | ------ | ------ |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
+|  |  | |
 ## 1.5 Preliminary ERD
