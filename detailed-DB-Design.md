@@ -1,7 +1,10 @@
 # Detailed Database Design Document
 
-## 2.1 – Project description, database engine used, potential users, maybe some other stuff
+## 2.1 – Project Description
+"Ecoins" are a loyalty point system for LMU's Esports Club. This is a database where we can keep track of our members and their participation in the club.
+The main goal of this database is to allow Esports **members** to access their "Ecoin" balance, but it will also be useful for Esports **administrators** to access members' emails and grade levels in order to keep an active mailing list and organize school-wide competitions and events.
 
+This project implements a PostgreSQL database.
 ## 2.2 – Data Dictionary
 
 - Member Table
